@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/piano-a-queue.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main>
+      <div id="game-info">
+        <div id="score">
+        ⭐ Score : <span id="score-value">0</span>
+        </div>
+
+        <div id="combo">Combo x0</div>
+
+        <button id="theme-btn">🎨 Thème</button>
+      </div>
+
+      <div id="piano" class="classic">
+        <!-- <img id="organ-pipes" src="./assets/images/organ-pipes.webp" /> -->
+        <section id="music-sheets-ctnr">
+          <div id="music-sheets">
+            <h2>&#x1F3B5; Partitions &#x1F3B5;</h2>
+            <!-- &#127942; -->
+            <ul>
+            
+            </ul>
+          </div>
+        </section>
+        <section id="piano-options">
+          <button id="show-keyboard-button">
+            <div class="keyboard-keys-range">
+              <span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span>
+            </div>
+            <div class="keyboard-keys-range">
+              <span class="keyboard-medium-key"></span>
+              <span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span>
+              <span class="keyboard-medium-key"></span>
+            </div>
+            <div class="keyboard-keys-range">
+              <span class="keyboard-medium-large-key"></span>
+              <span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span><span class="keyboard-small-key"></span>
+              <span class="keyboard-medium-large-key"></span>
+            </div>
+            <div class="keyboard-keys-range">
+              <span class="keyboard-large-key"></span>
+              <span class="keyboard-space-key"></span>
+              <span class="keyboard-large-key"></span>
+            </div>
+          </button>
+          <div id="recording-btn">
+            <div class="enreg"></div>
+          </div>
+          <button id="play-melody-recorded-btn"><div></div></button>
+          <button id="select-instrument-btn">
+            
+          </button>
+
+          <button id="creer-partition"><img src="./assets/images/partition.png" alt=""></button>
+        </section>
+        <section id="piano-keys">
+        </section>
+      </div>
+    </main>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
